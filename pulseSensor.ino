@@ -1,3 +1,7 @@
+#define USE_ARDUINO_INTERRUPTS true
+#include <PulseSensorPlayground.h>
+#include <bluefruit.h>
+
 int pulsePin = 0;          
 int blinkPin = 13;         
 int fadePin = 5;           
